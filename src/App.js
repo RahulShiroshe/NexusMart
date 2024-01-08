@@ -2,12 +2,12 @@ import React, { useState } from "react"
 import "./App.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Header from "./common/header/Header"
-import Pages from "./pages/Pages"
+import Shop from "./components/shops/Shop.jsx"
 import Cart from "./common/Cart/Cart"
 import Footer from "./common/footer/Footer"
-import Mobilemenu from './common/nav-mobile/Mobile-menu'
 import Like from "./common/Cart/Like"
 import Contact from "./components/contact/Contact"
+import Mobilemenu from "./common/nav-mobile/Mobile-menu"
 
 function App() {
   const [CartItem, setCartItem] = useState([])
@@ -50,7 +50,7 @@ function App() {
           <Header CartItem={CartItem} LikeItem={LikeItem} />
           <Switch>
             <Route path='/' exact>
-              <Pages  addToCart={addToCart} addToLike={addToLike} />
+              <Shop  addToCart={addToCart} addToLike={addToLike} />
             </Route>
             <Route path='/cart' exact>
               <Cart CartItem={CartItem} addToCart={addToCart} decreaseQty={decreaseQty} removeQty={removeQty} />
