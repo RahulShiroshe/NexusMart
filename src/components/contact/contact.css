@@ -1,98 +1,59 @@
 .contact {
     font-family: "Raleway", sans-serif;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    outline: none;
-    border: none;
-    text-transform: capitalize;
-    transition: all 0.2s linear;
-}
-
-.contact {
-    font-size: 62%;
-    overflow-x: hidden;
-}
-
-
-.contact {
-    min-height: 100vh;
     padding: 1rem;
-    /* background-color: #9ae484; */
-    color: black;
 }
-
-
-
-.contact .row {
+.row {
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.contact .row .content {
+.content {
     flex: 1 1 30rem;
     padding: 3rem;
     padding-bottom: 0;
 }
-
-.contact .row form {
+.row form {
     flex: 1 1 45rem;
     padding: 1.5rem 2rem;
     margin: 1.5rem 2rem;
     padding-bottom: 4rem;
 }
-
-.contact .row form .box {
+.c-box {
     padding: 1.5rem;
     margin: 1rem 0;
     background: #3333;
-    /* color: #fff; */
-    text-transform: none;
     font-size: 1.7rem;
     width: 100%;
 }
-
-.contact .row form .box::placeholder {
+.c-box::placeholder {
     text-transform: capitalize;
 }
-
-.contact .row form .messege {
+.messege {
     height: 12rem;
     resize: none;
 }
-
-.contact .row .content .title {
+.title {
     text-transform: uppercase;
-    /* color: #fff; */
     font-size: 3rem;
     padding-bottom: 1rem;
 }
-
-.contact .row .content .info h3 {
+.info h3 {
     text-transform: none;
     display: flex;
     align-items: center;
-    font-size: 2rem;
-    /* color: #fff; */
+    font-size: 1rem;
     padding: 0.7rem 0;
     font-weight: normal;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
-.contact .row .content .info i {
+.info i {
     padding-right: 1rem;
-    color: var(--yellow);
 }
-
 .c-btn{
     padding: 0.5rem 1rem;
     background-color: #3333;
     border-radius: 0.7rem;
 }
-
 .c-btn:hover{
     background-color: grey;
 }
