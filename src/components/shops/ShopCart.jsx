@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react"
 
 const ShopCart = ({ addToLike, addToCart }) => {
-  // const [count, setCount] = useState(0)
-  // const increment = () => {
-  //   setCount(count + 1)
-  // }
   const [records, setRecords]= useState([])
 
   useEffect(()=>{
@@ -22,7 +18,7 @@ const ShopCart = ({ addToLike, addToCart }) => {
             <div className='product mtop'>
               <div className='img'>
                 <span className='discount'>30% Off</span>
-                <img  style={{ width : 140, height : 140 }} src={shopItems.image} alt=''className="shop-img" />
+                <img src={shopItems.image} alt=''className="shop-img" />
                 <div className='product-like'>
                   <i className='fa-regular fa-heart'  onClick={() => addToLike(shopItems)}></i>
                 </div>
