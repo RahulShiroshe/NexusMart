@@ -5,26 +5,20 @@ footer {
 }
 .css-link a {
   display: block;
-  border-radius: 4px;
-  cursor: pointer;
-  position: relative;
   padding: 0.3rem 0;
   color: #AEB4BE;
   font-size: 14px;
 }
 .css-link a:hover {
   color: #F6F9FC;
-  cursor: pointer;
-  transition: .5s;
 }
 
 footer h1 {
   margin-bottom: 20px;
   font-weight: 800;
   font-style: italic;
-  margin-top: -8px;
+  margin-top: -48px;
   color: #fff;
-  transition: .5s;
 }
 footer .img {
   background-color: #0c2a4d;
@@ -42,7 +36,6 @@ footer .img span {
 }
 footer p {
   font-size: 14px;
-  font-weight: 300;
   opacity: 0.5;
   margin-bottom: 20px;
 }
