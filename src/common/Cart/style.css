@@ -77,11 +77,9 @@
   color: rgba(148, 146, 57);
   border: 1px solid rgba(240, 178, 21, 0.5);
 }
-
 .css-h-a{
   padding-right: 17px;
 }
-
 .cart-items .cart-details {
   flex-basis: 66.666667%;
   flex-grow: 0;
@@ -131,3 +129,4 @@
     max-width: 100%;
   }
 }
+
