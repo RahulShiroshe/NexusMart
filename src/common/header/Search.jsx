@@ -44,20 +44,20 @@ const Search = ({ CartItem, LikeItem }) => {
               </Link>
             </div>
             <div className='navlink '>
-               <ul className={MobileMenu ? "cartsy-menu-drawer open" : "link f_flex capitalize cartsy-menu-drawer"} onClick={() => setMobileMenu(false)}>
-              <li>
-                <Link to='/'>home</Link>
-              </li>
-              <li>
-                <Link to='/contact'>contact</Link>
-              </li>
-              <li>
-                <Link to='/user'>Account</Link>
-              </li>
-              <li>
-                <Link to='/track'>track my order</Link>
-              </li>
-            </ul>
+              <ul className={MobileMenu ? "cartsy-menu-drawer open" : "link f_flex capitalize cartsy-menu-drawer"} onClick={() => setMobileMenu(false)}>
+                <li>
+                  <Link >Account</Link>
+                </li>
+                <li>
+                  <Link >Track My Order</Link>
+                </li>
+                <li>
+                  <Link >Coupons</Link>
+                </li>
+                <li>
+                  <Link >My Notifications</Link>
+                </li>
+              </ul>
               <button className='toggle' onClick={() => setMobileMenu(!MobileMenu)}>
                 {MobileMenu ? <i className='fas fa-times close home-btn'/> : <i className='fas fa-bars open'/>}
               </button>
