@@ -1,8 +1,7 @@
-import React, { useState } from "react"
+import React from "react"
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
-  const [MobileCat, setMobileCat] = useState(false)
 
   return (
       <header className='header'>
@@ -16,10 +15,16 @@ const Navbar = () => {
                 <Link to='/Contact'>Contact</Link>
               </li>
               <li>
-                <Link to='/user'> Account</Link>
+                Account
               </li>
               <li>
-                <Link to='/track'>track my order</Link>
+                track my order
+              </li>
+              <li>
+                Coupons
+              </li>
+              <li>
+                My Notifications
               </li>
             </ul>
           </div>
