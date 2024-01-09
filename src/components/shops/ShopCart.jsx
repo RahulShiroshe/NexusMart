@@ -1,4 +1,8 @@
 import React, { useState, useEffect } from "react"
+// const [count, setCount] = useState(0)
+// const increment = () => {
+//   setCount(count + 1)
+// }
 
 const ShopCart = ({ addToLike, addToCart }) => {
   const [records, setRecords]= useState([])
