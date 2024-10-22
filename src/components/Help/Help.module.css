@@ -1,0 +1,107 @@
+/* Overall container styling */
+.helpContainer {
+  padding: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f9f9; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners for a softer look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title styling */
+.title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333; /* Dark color for title */
+}
+
+/* Description styling */
+.description {
+  font-size: 1rem;
+  text-align: center;
+  color: #555; /* Medium gray for description text */
+}
+
+/* FAQ section styling */
+.faqSection {
+  margin-bottom: 20px;
+}
+
+/* FAQ title styling */
+.faqTitle {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  color: #007bff; 
+}
+
+/* Individual FAQ item styling */
+.faqItem {
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  background-color: #ffffff; /* White background for items */
+  border: 1px solid #e1e1e1; /* Light gray border */
+  border-radius: 5px; /* Slight rounding for items */
+  transition: box-shadow 0.2s ease; /* Smooth hover effect */
+}
+
+.faqItem:hover {
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.2); /* Shadow on hover */
+}
+
+/* Question styling */
+.question {
+  font-weight: bold;
+  color: #007bff; /* Blue for questions */
+}
+
+/* Answer styling */
+.answer {
+  /* margin-top: 5px; */
+  color: #666; /* Lighter gray for answers */
+}
+
+/* Contact section styling */
+.contactSection {
+  text-align: center;
+  /* margin-top: 40px; */
+}
+
+/* Contact title styling */
+.contactTitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff; /* Blue for contact title */
+}
+
+/* Contact text styling */
+.contactText {
+  font-size: 1rem;
+  color: #555; /* Medium gray for contact text */
+}
+
+/* Contact list styling */
+.contactList {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #333; /* Dark color for list items */
+}
+
+.contactList li {
+  margin-bottom: 10px;
+}
+
+/* Link styling */
+.contactList a {
+  color: #007bff; /* Blue for links */
+  text-decoration: none;
+  transition: color 0.2s ease; /* Smooth color transition */
+}
+
+.contactList a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}

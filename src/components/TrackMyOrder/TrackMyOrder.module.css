@@ -1,0 +1,96 @@
+.orderSection {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.orderContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.orderCard {
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px 0;
+  max-width: 350px;
+}
+
+.orderImage {
+  height: 250px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.orderInfo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.orderTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.orderPriceContainer {
+  margin: 10px 0;
+  color: #28a745;
+  font-weight: bold;
+}
+
+.orderPriceContainer div span {
+  color: #37513d;
+}
+
+.orderToggle {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.orderToggle:hover {
+  background-color: #0056b3;
+}
+
+.orderDetailsContent {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.orderDetailsContent h4 {
+  margin: 15px 0 5px;
+  color: #007bff;
+  font-weight: 600;
+}
+
+.orderDetailsContent p {
+  margin: 5px 0;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .orderContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

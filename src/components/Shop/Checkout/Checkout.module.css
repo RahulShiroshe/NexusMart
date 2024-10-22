@@ -1,0 +1,158 @@
+.checkoutContainer {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.checkoutContainer h2,
+.paymentOptions h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #0f3460;
+  margin-bottom: 20px;
+}
+
+.checkoutSummary {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.productImage {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.productDetails {
+  margin-left: 20px;
+}
+
+.productDetails h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.productDetails p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.actionButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.confirmButton {
+  background-color: #0f3460;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.confirmButton:hover {
+  background-color: #1a4a8d;
+}
+
+.cancelButton {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.cancelButton:hover {
+  background-color: #c1c1c1;
+}
+
+.paymentPopup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.popupContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popupContent h4 {
+  text-align: center;
+  padding-top: 10px;
+}
+.popupContent h1 {
+  text-align: center;
+  color: #0f3460b3;
+}
+
+.paymentOptions {
+  margin-top: 20px;
+}
+
+.paymentIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.paymentIcons img {
+  width: 40px;
+  height: auto;
+}
+
+.paymentIcons h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #0f3460;
+}
+
+@media (max-width: 600px) {
+  .checkoutContainer {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .productImage {
+    width: 80px;
+  }
+
+  .productDetails h3 {
+    font-size: 18px;
+  }
+
+  .confirmButton,
+  .cancelButton {
+    padding: 8px 10px;
+  }
+
+  .paymentIcons h4 {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,88 @@
+.likeItem {
+  background-color: #fff;
+  color: #2b3445;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 16px rgb(43 52 69 / 10%);
+}
+.likeImage {
+  width: 140px;
+  height: 140px;
+}
+.removeLike {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1.125rem;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.likeInfo {
+  display: flex;
+  padding: 16px;
+  padding-left: 14px;
+  row-gap: 16px;
+  width: 100%;
+  flex-direction: column;
+}
+.likePrice {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.price {
+  font-weight: 600;
+  color: #d23f57;
+}
+.purchaseButton {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 5%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  max-width: 200px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+.purchaseButton:hover {
+  background-color: #218838;
+}
+.noItems {
+  text-align: center;
+}
+.likeHeader {
+  padding-right: 17px;
+}
+.likeDetails {
+  flex-basis: 66.666667%;
+  flex-grow: 0;
+  max-width: 66.666667%;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 959px) {
+  .likeDetails {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 450px) {
+  .likeItem {
+    padding-top: 20px;
+    flex-direction: column;
+  }
+
+  .likeInfo {
+    justify-content: center;
+    align-items: center;
+  }
+}

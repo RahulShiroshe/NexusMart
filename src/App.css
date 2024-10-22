@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f9fc;
+}
+.container-h {
+  width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.d_flex {
+  width: 100%;
+  box-sizing: border-box;
+  /* display: block; */
+  display: flex;
+}
+
+.f_flex {
+  display: flex;
+}
+.search a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.RText {
+  text-align-last: right;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.icon-circle {
+  width: 44px;
+  line-height: 44px;
+  background: #f3f5f9;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+@media screen and (max-width: 959px) {
+  .css-j {
+    width: 1em;
+    height: 1em;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .d_flex {
+    display: block;
+  }
+}
